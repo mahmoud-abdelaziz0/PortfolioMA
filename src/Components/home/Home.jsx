@@ -1,5 +1,5 @@
 import React from "react";
-import profileImg from "../../assets/profile-img.png";
+import profileImg from "../../assets/profile-img1.png";
 import shapeOne from "../../assets/shape-1.png";
 import shapeTwo from "../../assets/shape-2.png";
 
@@ -26,7 +26,11 @@ const Home = () => {
             <span className="text-cs">I Am</span> <b>Web Developer</b>
           </p>
 
-         
+          <div className="home__img-wrapper">
+            <div className="home__banner">
+              <img src={profileImg} alt="" className="home__porfile"/>
+            </div>
+          </div>
 
           <p className="home__text">
             From Egypt. A software engineer interested in Web Development.

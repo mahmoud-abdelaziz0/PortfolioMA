@@ -7,6 +7,7 @@
 
 .home__container {
   width: 100%;
+  position: relative;
 }
 
 .home__subtitle,
@@ -38,6 +39,8 @@
               5px 5px hsl(0 0 0 /20%);
   line-height: 1.2;
   margin-top: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 .home__text {
@@ -76,4 +79,26 @@
   height: 2px;
   width: 40px;
   background-color: var(--border-color);
+}
+
+.home__img-wrapper {
+  position: absolute;
+  top: 50px;
+  right: 12px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.home__banner {
+  background-color: var(--primary-color);
+  padding-bottom: 100%;
+  border-radius: 50%;
+}
+
+.home__porfile {
+  position: absolute;
+  bottom: 0;
+  height: 690px;
+  border-radius: 500px;
+  object-fit: cover;
 }
